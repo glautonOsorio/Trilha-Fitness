@@ -1,0 +1,68 @@
+[
+  {
+    "trail_name": "Hidden Valley Trail",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "duration": "3 hours",
+    "route": "The trail winds through desert landscapes, hidden canyons, and offers stunning views of the surrounding mountains.",
+    "difficulty": "Moderate",
+    "trail_type": "Hiking",
+    "trail_creator": "Sarah Johnson",
+    "image_url": "https://example.com/hidden_valley_trail.jpg"
+  },
+  {
+    "trail_name": "Cascade Falls Trail",
+    "city": "Durango",
+    "state": "Colorado",
+    "duration": "2.5 hours",
+    "route": "The trail leads to a beautiful waterfall surrounded by lush forests, with several scenic viewpoints along the way.",
+    "difficulty": "Easy",
+    "trail_type": "Hiking",
+    "trail_creator": "Michael Smith",
+    "image_url": "https://example.com/cascade_falls_trail.jpg"
+  },
+  {
+    "trail_name": "Enchanted Forest Loop",
+    "city": "Portland",
+    "state": "Oregon",
+    "duration": "4 hours",
+    "route": "This loop trail meanders through an enchanting forest filled with towering trees, moss-covered rocks, and babbling brooks.",
+    "difficulty": "Moderate",
+    "trail_type": "Hiking",
+    "trail_creator": "Emily Davis",
+    "image_url": "https://example.com/enchanted_forest_loop.jpg"
+  },
+  {
+    "trail_name": "Sunrise Ridge Trail",
+    "city": "Seattle",
+    "state": "Washington",
+    "duration": "5 hours",
+    "route": "The trail ascends a ridge offering panoramic views of the city skyline, Puget Sound, and distant mountains, especially stunning at sunrise.",
+    "difficulty": "Challenging",
+    "trail_type": "Hiking",
+    "trail_creator": "David Thompson",
+    "image_url": "https://example.com/sunrise_ridge_trail.jpg"
+  },
+  {
+    "trail_name": "Mystic Lake Trail",
+    "city": "Bozeman",
+    "state": "Montana",
+    "duration": "6 hours",
+    "route": "This trail takes hikers through alpine meadows, past cascading waterfalls, and finally to the picturesque Mystic Lake nestled in the mountains.",
+    "difficulty": "Moderate",
+    "trail_type": "Hiking",
+    "trail_creator": "Jennifer Roberts",
+    "image_url": "https://example.com/mystic_lake_trail.jpg"
+  },
+  {
+    "trail_name": "Coastal Cliff Trail",
+    "city": "San Francisco",
+    "state": "California",
+    "duration": "4.5 hours",
+    "route": "Experience breathtaking coastal views as the trail winds along towering cliffs overlooking the Pacific Ocean.",
+    "difficulty": "Moderate",
+    "trail_type": "Hiking",
+    "trail_creator": "Alex Garcia",
+    "image_url": "https://example.com/coastal_cliff_trail.jpg"
+  }
+]
