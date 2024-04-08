@@ -8,7 +8,7 @@
     "difficulty": "Moderate",
     "trail_type": "Hiking",
     "trail_creator": "Sarah Johnson",
-    "image_url": "https://example.com/hidden_valley_trail.jpg"
+    "image_url": "https://www.nps.gov/common/uploads/cropped_image/primary/C7D00A59-C31E-BA17-5D449DCEF35A925D.jpg?width=1600&quality=90&mode=crop"
   },
   {
     "trail_name": "Cascade Falls Trail",
@@ -19,7 +19,7 @@
     "difficulty": "Easy",
     "trail_type": "Hiking",
     "trail_creator": "Michael Smith",
-    "image_url": "https://example.com/cascade_falls_trail.jpg"
+    "image_url": "https://cdn-dlaeo.nitrocdn.com/vKpGagrMluCSWkzNkpazbaBhpRXQtEVa/assets/images/optimized/rev-6bd9fec/wp-content/uploads/2020/11/waterfalls-near-Durango-CO-940x609-1.jpg"
   },
   {
     "trail_name": "Enchanted Forest Loop",
@@ -30,7 +30,7 @@
     "difficulty": "Moderate",
     "trail_type": "Hiking",
     "trail_creator": "Emily Davis",
-    "image_url": "https://example.com/enchanted_forest_loop.jpg"
+    "image_url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/1604195177/2020-10-09_14.20.45.jpg?itok=k-7l1aiK"
   },
   {
     "trail_name": "Sunrise Ridge Trail",
@@ -41,7 +41,7 @@
     "difficulty": "Challenging",
     "trail_type": "Hiking",
     "trail_creator": "David Thompson",
-    "image_url": "https://example.com/sunrise_ridge_trail.jpg"
+    "image_url": "https://www.hikeoftheweek.com/wp-content/uploads/2016/07/DSC03218-1024x768.jpg"
   },
   {
     "trail_name": "Mystic Lake Trail",
@@ -52,7 +52,7 @@
     "difficulty": "Moderate",
     "trail_type": "Hiking",
     "trail_creator": "Jennifer Roberts",
-    "image_url": "https://example.com/mystic_lake_trail.jpg"
+    "image_url": "https://www.montanahikes.com/wp-content/uploads/2020/02/Mystic_Lake_2.jpg"
   },
   {
     "trail_name": "Coastal Cliff Trail",
@@ -63,6 +63,6 @@
     "difficulty": "Moderate",
     "trail_type": "Hiking",
     "trail_creator": "Alex Garcia",
-    "image_url": "https://example.com/coastal_cliff_trail.jpg"
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f6/34/ae/sutro-baths.jpg?w=1200&h=1200&s=1"
   }
 ]
