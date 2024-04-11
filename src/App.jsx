@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { FooterComponent } from "./components/Footer/Footer.component";
+import { HeaderComponent } from "./components/Header/Header.component";
+import { InputComponent } from "./components/Input/Input.component";
+import { SelectComponent } from "./components/Select/Select.component";
+
+import { useForm } from "react-hook-form";
+import { useEffect, useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const {
+    register,
+    handleSubmit,
+    watch,
+    setValue,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+  const selectGender = [
+    { value: "", label: "Selecione" },
+    { value: "male", label: "Masculino" },
+    { value: "female", label: "Feminino" },
+    { value: "other", label: "Outro" },
+  ];
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <HeaderComponent />
+      <FooterComponent />
+      <InputComponent id="password" type="password" label="Digite sua senha" />
+      <SelectComponent
+        id={"gender"}
+        label={"Gênero"}
+        error={!!errors.gender}
+        helperText={errors.gender?.message}
+        option={selectGender}
+        register={{
+          ...register("gender", { required: "Selecione uma das opções" }),
+        }}
+      />
+    </div>
+  );
 }
 
-export default App
+export default App;
