@@ -31,38 +31,6 @@
     "trail_type": "Hiking",
     "trail_creator": "Emily Davis",
     "image_url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/1604195177/2020-10-09_14.20.45.jpg?itok=k-7l1aiK"
-  },
-  {
-    "trail_name": "Sunrise Ridge Trail",
-    "city": "Seattle",
-    "state": "Washington",
-    "duration": "5 hours",
-    "route": "The trail ascends a ridge offering panoramic views of the city skyline, Puget Sound, and distant mountains, especially stunning at sunrise.",
-    "difficulty": "Challenging",
-    "trail_type": "Hiking",
-    "trail_creator": "David Thompson",
-    "image_url": "https://www.hikeoftheweek.com/wp-content/uploads/2016/07/DSC03218-1024x768.jpg"
-  },
-  {
-    "trail_name": "Mystic Lake Trail",
-    "city": "Bozeman",
-    "state": "Montana",
-    "duration": "6 hours",
-    "route": "This trail takes hikers through alpine meadows, past cascading waterfalls, and finally to the picturesque Mystic Lake nestled in the mountains.",
-    "difficulty": "Moderate",
-    "trail_type": "Hiking",
-    "trail_creator": "Jennifer Roberts",
-    "image_url": "https://www.montanahikes.com/wp-content/uploads/2020/02/Mystic_Lake_2.jpg"
-  },
-  {
-    "trail_name": "Coastal Cliff Trail",
-    "city": "San Francisco",
-    "state": "California",
-    "duration": "4.5 hours",
-    "route": "Experience breathtaking coastal views as the trail winds along towering cliffs overlooking the Pacific Ocean.",
-    "difficulty": "Moderate",
-    "trail_type": "Hiking",
-    "trail_creator": "Alex Garcia",
-    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f6/34/ae/sutro-baths.jpg?w=1200&h=1200&s=1"
   }
+ 
 ]

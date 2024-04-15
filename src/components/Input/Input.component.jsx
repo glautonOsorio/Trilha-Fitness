@@ -3,7 +3,6 @@ import { useState } from "react";
 
 import * as Styled from "./Input.style";
 
-import TextField from "@mui/material/TextField";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 
@@ -14,10 +13,10 @@ export const InputComponent = ({
   placeholder,
   register,
   error,
+  mask,
+  as,
   onInput,
-  helperText,
-  step,
-  readOnly = false,
+  errorMessage,
 }) => {
   const [showPassword, setShowPassword] = useState(false);
 
@@ -27,25 +26,43 @@ export const InputComponent = ({
 
   return (
     <Styled.InputGroup>
-      <TextField
-        id={id}
-        onInput={onInput}
-        step={step}
-        label={label}
-        error={error}
-        type={showPassword ? "text" : type}
-        placeholder={placeholder}
-        helperText={helperText}
-        {...register}
-        inputProps={{ readOnly: readOnly }}
-        InputLabelProps={{ shrink: true }}
-      >
-        {type === "password" && (
-          <Styled.Icon type="button" onClick={handleShowPassword}>
-            {!showPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
-          </Styled.Icon>
-        )}
-      </TextField>
+      <Styled.Label $color={error && "danger"} htmlFor={id}>
+        {label}
+      </Styled.Label>
+
+      {type !== "textarea" && (
+        <Styled.InputContainer>
+          <Styled.Input
+            onInput={onInput}
+            mask={mask}
+            as={as}
+            $color={error && "danger"}
+            type={showPassword ? "text" : type}
+            id={id}
+            placeholder={placeholder}
+            {...register}
+          />
+          {type === "password" && (
+            <Styled.Icon
+              $color={error && "danger"}
+              type="button"
+              onClick={handleShowPassword}
+            >
+              {!showPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
+            </Styled.Icon>
+          )}
+            {error && <Styled.ErrorSpan>{errorMessage}</Styled.ErrorSpan>}
+        </Styled.InputContainer>
+      )}
+
+      {type === "textarea" && (
+        <Styled.TextArea
+          $color={error && "danger"}
+          id={id}
+          placeholder={placeholder}
+          {...register}
+        />
+      )}
     </Styled.InputGroup>
   );
 };
@@ -53,10 +70,8 @@ export const InputComponent = ({
 InputComponent.propTypes = {
   label: PropTypes.string,
   type: PropTypes.string,
-  id: PropTypes.string,
   placeholder: PropTypes.string,
   register: PropTypes.any,
   error: PropTypes.any,
-  helperText: PropTypes.any,
-  readOnly: PropTypes.bool,
+  errorMessage: PropTypes.any,
 };

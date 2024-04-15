@@ -23,12 +23,35 @@ function App() {
     { value: "female", label: "Feminino" },
     { value: "other", label: "Outro" },
   ];
+  const submitForm =  (data) => {
+   
+    console.log(data);
+  };
 
   return (
     <div>
       <HeaderComponent />
-      <FooterComponent />
-      <InputComponent id="password" type="password" label="Digite sua senha" />
+      <form onSubmit={handleSubmit(submitForm)}>
+
+     
+      <InputComponent  
+       id="password"
+       type="password"
+       label="Digite sua senha"
+       register={{
+         ...register("password", {
+           required: "Campo obrigatório",
+           minLength: {
+             value: 6,
+             message: "Campo precisa ter acima de 6 caracteres",
+            },
+          }),
+        }}
+        error={!!errors.password}
+        errorMessage={errors.password?.message}/>
+              <button type="submit"> Teste</button>
+
+        </form>
       <SelectComponent
         id={"gender"}
         label={"Gênero"}
@@ -39,6 +62,8 @@ function App() {
           ...register("gender", { required: "Selecione uma das opções" }),
         }}
       />
+            <FooterComponent />
+
     </div>
   );
 }
