@@ -1,36 +1,37 @@
-[
-  {
-    "trail_name": "Hidden Valley Trail",
-    "city": "Phoenix",
-    "state": "Arizona",
-    "duration": "3 hours",
-    "route": "The trail winds through desert landscapes, hidden canyons, and offers stunning views of the surrounding mountains.",
-    "difficulty": "Moderate",
-    "trail_type": "Hiking",
-    "trail_creator": "Sarah Johnson",
-    "image_url": "https://www.nps.gov/common/uploads/cropped_image/primary/C7D00A59-C31E-BA17-5D449DCEF35A925D.jpg?width=1600&quality=90&mode=crop"
-  },
-  {
-    "trail_name": "Cascade Falls Trail",
-    "city": "Durango",
-    "state": "Colorado",
-    "duration": "2.5 hours",
-    "route": "The trail leads to a beautiful waterfall surrounded by lush forests, with several scenic viewpoints along the way.",
-    "difficulty": "Easy",
-    "trail_type": "Hiking",
-    "trail_creator": "Michael Smith",
-    "image_url": "https://cdn-dlaeo.nitrocdn.com/vKpGagrMluCSWkzNkpazbaBhpRXQtEVa/assets/images/optimized/rev-6bd9fec/wp-content/uploads/2020/11/waterfalls-near-Durango-CO-940x609-1.jpg"
-  },
-  {
-    "trail_name": "Enchanted Forest Loop",
-    "city": "Portland",
-    "state": "Oregon",
-    "duration": "4 hours",
-    "route": "This loop trail meanders through an enchanting forest filled with towering trees, moss-covered rocks, and babbling brooks.",
-    "difficulty": "Moderate",
-    "trail_type": "Hiking",
-    "trail_creator": "Emily Davis",
-    "image_url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/1604195177/2020-10-09_14.20.45.jpg?itok=k-7l1aiK"
-  }
- 
-]
+{
+  "trails": [
+    {
+      "trail_name": "Hidden Valley Trail",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "duration": "3 hours",
+      "route": "The trail winds through desert landscapes, hidden canyons, and offers stunning views of the surrounding mountains.",
+      "difficulty": "Moderate",
+      "trail_type": "Hiking",
+      "trail_creator": "Sarah Johnson",
+      "image_url": "https://www.nps.gov/common/uploads/cropped_image/primary/C7D00A59-C31E-BA17-5D449DCEF35A925D.jpg?width=1600&quality=90&mode=crop"
+    },
+    {
+      "trail_name": "Cascade Falls Trail",
+      "city": "Durango",
+      "state": "Colorado",
+      "duration": "2.5 hours",
+      "route": "The trail leads to a beautiful waterfall surrounded by lush forests, with several scenic viewpoints along the way.",
+      "difficulty": "Easy",
+      "trail_type": "Hiking",
+      "trail_creator": "Michael Smith",
+      "image_url": "https://cdn-dlaeo.nitrocdn.com/vKpGagrMluCSWkzNkpazbaBhpRXQtEVa/assets/images/optimized/rev-6bd9fec/wp-content/uploads/2020/11/waterfalls-near-Durango-CO-940x609-1.jpg"
+    },
+    {
+      "trail_name": "Enchanted Forest Loop",
+      "city": "Portland",
+      "state": "Oregon",
+      "duration": "4 hours",
+      "route": "This loop trail meanders through an enchanting forest filled with towering trees, moss-covered rocks, and babbling brooks.",
+      "difficulty": "Moderate",
+      "trail_type": "Hiking",
+      "trail_creator": "Emily Davis",
+      "image_url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/1604195177/2020-10-09_14.20.45.jpg?itok=k-7l1aiK"
+    }
+  ]
+}
