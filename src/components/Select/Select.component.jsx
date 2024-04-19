@@ -6,15 +6,13 @@ export const SelectComponent = ({
   register,
   error,
   helperText,
-  label,
+  
   option,
   id,
 }) => {
   return (
     <Styled.SelectGroup>
-      <Styled.SelectLabel $color={error && "danger"} htmlFor={id}>
-        {label}
-      </Styled.SelectLabel>
+      
       <Styled.FormSelect id={id} $color={error && "danger"} {...register}>
         {option &&
           option.map((item, index) => {
@@ -39,7 +37,6 @@ SelectComponent.propTypes = {
   option: PropTypes.any,
   error: PropTypes.any,
   value: PropTypes.any,
-  label: PropTypes.string,
   type: PropTypes.string,
   id: PropTypes.string,
 };

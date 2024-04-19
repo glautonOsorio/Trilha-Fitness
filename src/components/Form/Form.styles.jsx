@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-  background-color: ${({ $colors }) => $colors.secondary};
+  background-color: transparent;
   width: 65rem;
   height: 38rem;
-  margin: 1rem;
+  margin: 4rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   border: none;
   box-shadow: 0.5rem 0.5rem 0.5rem 0rem rgba(0, 0, 0, 0.37);
-  overflow-y: scroll;
 `;
 
 export const FormColumn = styled.div`
@@ -23,13 +23,14 @@ export const FormColumn = styled.div`
 export const FormRow = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   width: 100%;
   gap: 1rem;
   margin: 0.5rem;
 `;
 
 export const FormTitle = styled.legend`
-  color: ${({ $colors }) => $colors.primary};
+  color: #fffff;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -37,7 +38,7 @@ export const FormTitle = styled.legend`
   margin: 1rem;
 `;
 export const FormSubTitle = styled.legend`
-  color: ${({ $colors }) => $colors.secondary};
+  color: #fffff;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;

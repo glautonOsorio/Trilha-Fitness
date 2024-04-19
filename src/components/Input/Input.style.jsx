@@ -32,6 +32,9 @@ export const Input = styled.input`
     ${({ $color }) => {
       return $color === "danger" ? "#BE2E2E" : "#5281DC";
     }};
+    color: ${({ $color }) => {
+      return $color === "danger" ? "#BE2E2E" : "#304050";
+    }};
   width: 100%;
 `;
 
