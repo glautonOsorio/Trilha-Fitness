@@ -1,21 +1,25 @@
 import { createContext, useState, useEffect } from "react";
 import useFetch from "../hooks/useFetch";
 
-export const TrilhasContext = createContext();
+export const TrailsContext = createContext();
 
-export const TrilhasContextProvider = ({ children }) => {
-  const [dados, isLoading] = useFetch("../server/db.json");
-  const [trilhas, setTrilhas] = useState([]);
+export const TrailsContextProvider = ({ children }) => {
+  const [data, isLoading] = useFetch("/db.json");
+  const [trails, setTrails] = useState([]);
 
   useEffect(() => {
-    if (!!dados && !isLoading) {
-      setTrilhas(dados.trilhas);
+    if (!!data && !isLoading) {
+      setTrails(data.trails);
     }
-  }, [dados]);
+  }, [data]);
+
+  function addTrail(data) {
+    setTrails((t) => [...t, data]);
+  }
 
   return (
-    <TrilhasContext.Provider value={{ trilhas, setTrilhas, isLoading }}>
+    <TrailsContext.Provider value={{ trails, addTrail, setTrails, isLoading }}>
       {children}
-    </TrilhasContext.Provider>
+    </TrailsContext.Provider>
   );
 };

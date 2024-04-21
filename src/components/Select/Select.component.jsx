@@ -6,20 +6,22 @@ export const SelectComponent = ({
   register,
   error,
   helperText,
-  
+  label,
   option,
   id,
 }) => {
   return (
     <Styled.SelectGroup>
-      
+      <Styled.SelectLabel $color={error && "danger"} htmlFor={id}>
+        {label}
+      </Styled.SelectLabel>
       <Styled.FormSelect id={id} $color={error && "danger"} {...register}>
         {option &&
           option.map((item, index) => {
             return (
-              <option key={index} value={item?.value}>
+              <Styled.SelectOption key={index} value={item?.value}>
                 {item?.label}
-              </option>
+              </Styled.SelectOption>
             );
           })}
       </Styled.FormSelect>

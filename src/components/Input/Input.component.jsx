@@ -51,7 +51,7 @@ export const InputComponent = ({
               {!showPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
             </Styled.Icon>
           )}
-            {error && <Styled.ErrorSpan>{errorMessage}</Styled.ErrorSpan>}
+          {error && <Styled.ErrorSpan>{errorMessage}</Styled.ErrorSpan>}
         </Styled.InputContainer>
       )}
 

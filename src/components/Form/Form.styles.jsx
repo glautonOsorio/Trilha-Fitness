@@ -1,14 +1,10 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-  background-color: transparent;
-  width: 65rem;
-  height: 38rem;
-  margin: 4rem;
+  width: 60%;
+  margin: 1rem;
   padding: 1rem;
-  border-radius: 0.5rem;
   border: none;
-  box-shadow: 0.5rem 0.5rem 0.5rem 0rem rgba(0, 0, 0, 0.37);
 `;
 
 export const FormColumn = styled.div`
@@ -23,14 +19,14 @@ export const FormColumn = styled.div`
 export const FormRow = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-items: flex-end;
   width: 100%;
   gap: 1rem;
   margin: 0.5rem;
 `;
 
 export const FormTitle = styled.legend`
-  color: #fffff;
+  color: #000;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -38,7 +34,7 @@ export const FormTitle = styled.legend`
   margin: 1rem;
 `;
 export const FormSubTitle = styled.legend`
-  color: #fffff;
+  color: #000;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +43,7 @@ export const FormSubTitle = styled.legend`
 `;
 
 export const FormLegend = styled.legend`
-  color: #12619d;
+  color: #000;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;

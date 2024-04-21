@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
@@ -21,4 +22,12 @@ export const HeaderSpan = styled.span`
   font-size: 1;
   font-weight: 400;
   color: #ffffff;
+`;
+
+export const StyledLink = styled(NavLink)`
+  display: flex;
+  color: yellow;
+  padding: 10px 15px;
+  gap: 15px;
+  text-decoration: none;
 `;

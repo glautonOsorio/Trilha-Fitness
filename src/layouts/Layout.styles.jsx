@@ -20,9 +20,7 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
-  background-color: #fff;
+  background-color: #d7e3d3;
   border-radius: 0.625rem;
-  padding: 0 0.3125rem;
   flex: 1;
 `;
