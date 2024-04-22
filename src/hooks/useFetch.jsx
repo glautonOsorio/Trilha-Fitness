@@ -6,12 +6,14 @@ export default function useFetch(url) {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch(url)
-      .then((res) => res.json())
-      .then((value) => {
-        setData(value);
-        setIsLoading(false);
-      });
+    setTimeout(() => {
+      fetch(url)
+        .then((res) => res.json())
+        .then((value) => {
+          setData(value);
+          setIsLoading(false);
+        });
+    }, 1000);
   }, [url]);
 
   return [data, isLoading];

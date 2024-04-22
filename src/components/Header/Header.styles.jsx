@@ -26,7 +26,7 @@ export const HeaderSpan = styled.span`
 
 export const StyledLink = styled(NavLink)`
   display: flex;
-  color: yellow;
+  color: #ffffff;
   padding: 10px 15px;
   gap: 15px;
   text-decoration: none;

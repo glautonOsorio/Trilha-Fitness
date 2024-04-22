@@ -49,8 +49,11 @@ export const TextArea = styled.textarea`
   border-radius: 0.3125rem;
   border: 1px solid
     ${({ $color }) => {
-      return $color === "danger" ? "#BE2E2E" : "#304050";
+      return $color === "danger" ? "#BE2E2E" : "#B3B9BB";
     }};
+  color: ${({ $color }) => {
+    return $color === "danger" ? "#BE2E2E" : "#304050";
+  }};
   height: 5rem;
 `;
 

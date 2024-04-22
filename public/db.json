@@ -1,37 +1,37 @@
 {
   "trails": [
     {
-      "trail_name": "Hidden Valley Trail",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "duration": "3 hours",
-      "route": "The trail winds through desert landscapes, hidden canyons, and offers stunning views of the surrounding mountains.",
-      "difficulty": "Moderate",
-      "trail_type": "Hiking",
-      "username": "Sarah Johnson",
-      "image_url": "https://www.nps.gov/common/uploads/cropped_image/primary/C7D00A59-C31E-BA17-5D449DCEF35A925D.jpg?width=1600&quality=90&mode=crop"
+      "trail_name": "Trilha da Pedra Bonita",
+      "city": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "duration": "2 horas",
+      "route": "A trilha leva até o topo da Pedra Bonita, onde se tem uma vista deslumbrante da cidade do Rio de Janeiro e da Floresta da Tijuca.",
+      "difficulty": "Moderada",
+      "trail_type": "Caminhada",
+      "username": "Pedro Silva",
+      "image_url": "https://www.trilhandomontanhas.com/wp-content/uploads/2015/06/trilha-pedra-bonita1.jpg"
     },
     {
-      "trail_name": "Cascade Falls Trail",
-      "city": "Durango",
-      "state": "Colorado",
-      "duration": "2.5 hours",
-      "route": "The trail leads to a beautiful waterfall surrounded by lush forests, with several scenic viewpoints along the way.",
-      "difficulty": "Easy",
-      "trail_type": "Hiking",
-      "username": "Michael Smith",
-      "image_url": "https://cdn-dlaeo.nitrocdn.com/vKpGagrMluCSWkzNkpazbaBhpRXQtEVa/assets/images/optimized/rev-6bd9fec/wp-content/uploads/2020/11/waterfalls-near-Durango-CO-940x609-1.jpg"
+      "trail_name": "Trilha do Pico da Bandeira",
+      "city": "Alto Caparaó",
+      "state": "Minas Gerais",
+      "duration": "8 horas",
+      "route": "A trilha leva até o topo do Pico da Bandeira, o terceiro pico mais alto do Brasil, com vistas panorâmicas incríveis e uma experiência única de trekking.",
+      "difficulty": "Difícil",
+      "trail_type": "Trekking",
+      "username": "Ana Oliveira",
+      "image_url": "https://img.elo7.com.br/product/original/2A89C59/trilha-no-pico-da-bandeira-canvas-sob-o-pico.jpg"
     },
     {
-      "trail_name": "Enchanted Forest Loop",
-      "city": "Portland",
-      "state": "Oregon",
-      "duration": "4 hours",
-      "route": "This loop trail meanders through an enchanting forest filled with towering trees, moss-covered rocks, and babbling brooks.",
-      "difficulty": "Moderate",
-      "trail_type": "Hiking",
-      "username": "Emily Davis",
-      "image_url": "https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/1604195177/2020-10-09_14.20.45.jpg?itok=k-7l1aiK"
+      "trail_name": "Trilha dos Canyons",
+      "city": "Cambará do Sul",
+      "state": "Rio Grande do Sul",
+      "duration": "6 horas",
+      "route": "Esta trilha leva os visitantes a explorar os magníficos canyons da região, como o Itaimbezinho e o Fortaleza, com paisagens deslumbrantes e uma variedade de fauna e flora.",
+      "difficulty": "Moderada",
+      "trail_type": "Caminhada",
+      "username": "Lucas Santos",
+      "image_url": "https://www.viagemegastronomia.com.br/wp-content/uploads/2020/01/Trilhas-dos-Canyons-Cambara-do-Sul.jpg"
     }
   ]
 }
