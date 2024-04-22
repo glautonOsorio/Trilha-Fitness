@@ -49,5 +49,6 @@ export const CardText = styled.span`
 color: #747779 ;
 font-weight: 400;
 font-size: 0.8;
-line-height: 1rem;  
+line-height: 1rem;
+  
 `;
