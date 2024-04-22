@@ -41,4 +41,6 @@ export const TrailContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
+  padding: 2rem;
 `;
