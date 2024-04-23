@@ -14,10 +14,7 @@ export function MainPage() {
 
   return (
     <>
-      <Styled.MainImage
-        src="../../public/trails-image.png"
-        alt="imagem de trilha"
-      />
+      <Styled.MainImage src="/trails-image.png" alt="imagem de trilha" />
       <Styled.MainRelative>
         <Styled.MainTitle>
           Que tal aproveitar um tempo com a natureza?
