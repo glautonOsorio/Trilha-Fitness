@@ -270,7 +270,7 @@ export function FormComponent() {
             style={{
               backgroundColor: "transparent",
               color: "#504908",
-              border: "2px solid #504908",
+              border: "0.1rem solid #504908",
               fontWeight: "700",
             }}
           >

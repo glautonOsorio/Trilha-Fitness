@@ -8,18 +8,18 @@ export function FooterComponent() {
   return (
     <Styled.FooterContainer>
       <Styled.FooterTextContent>
-        <Styled.FooterSpan> Trail-Fitness FuturoDev</Styled.FooterSpan>
+        <Styled.StyledLink to="/"> Trail-Fitness FuturoDev</Styled.StyledLink>
       </Styled.FooterTextContent>
       <Styled.FooterTextContent>
-        <Styled.FooterSpan>
+        <Styled.StyledLink to="https://github.com/glautonOsorio">
           <GitHubIcon />
-        </Styled.FooterSpan>
-        <Styled.FooterSpan>
+        </Styled.StyledLink>
+        <Styled.StyledLink to="https://www.linkedin.com/in/glauton-osorio/">
           <LinkedInIcon />
-        </Styled.FooterSpan>
-        <Styled.FooterSpan>
+        </Styled.StyledLink>
+        <Styled.StyledLink>
           <QuestionMarkIcon />
-        </Styled.FooterSpan>
+        </Styled.StyledLink>
       </Styled.FooterTextContent>
     </Styled.FooterContainer>
   );
